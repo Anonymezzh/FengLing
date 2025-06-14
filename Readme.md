@@ -7,7 +7,7 @@ ChatGPT开启了大语言模型发展的新方向，各大互联网巨头纷纷�
 风灵月影安全大模型目标是为安全审计和网络防御提供强大的自然语言处理能力。它具备分析恶意代码、检测网络攻击、预测安全漏洞等功能，为安全专业人员提供有力的支持。
 ### 训练准备
 #### 训练平台
-基于colab平台进行训练
+基于colab平台进行训练[https://colab.research.google.com/drive/1D4EcAHGGQrnND5gDssz8aSZ_s8AOksbu?usp=sharing](url)
 
 #### 训练集
 数据集主要来自于Github、Kaggle、安全网站、公开的安全漏洞数据集组成，随后经过清洗、数据增强等来构造对话数据。数据集严格按照Alpaca模型数据集格式组织，分为Instruction，input，output三部分，我们规定在output输出中应当包含对具体内容的分析（analysis），安全评级（label），安全风险（risk），以及对应的解决方案（solution）。
